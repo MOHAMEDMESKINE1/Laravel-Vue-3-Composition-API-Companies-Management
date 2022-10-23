@@ -9,6 +9,7 @@ export default function useCompanies(){
     const company = ref('');
     const router = useRouter();
 
+    
     // getCompanies
     const getCompanies = async ()=>{
 
